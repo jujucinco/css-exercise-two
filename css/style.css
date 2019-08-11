@@ -1,6 +1,11 @@
+<link rel="stylesheet" type="text/css" href="reset.css">
+
 body {
+  font-size:;
   background-color: #ff0000;
   color: #0000FF;
+
+
 }
 
 nav {
@@ -8,6 +13,8 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+
+
 }
 
 .logo {
@@ -26,20 +33,26 @@ nav {
 .left, .right {
   float: left;
   width: 50%;
+
 }
 
 .right {
   float: right;
+  text-decoration:none;
 }
 
 ul {
   list-style-type: none;
   float: right;
+
+
 }
 
 li {
   float: right;
   padding: 30px;
+
+
 }
 
 article {
@@ -50,3 +63,52 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+
+h1 {
+  font-size:36px;
+  line-height:1.6em
+}
+
+h3 {
+  font-size:20px;
+  line-height:1.2em;
+  padding-bottom:10px
+}
+
+p{
+  font-size:14px
+}
+
+.story-text {
+  line-height:1.6em
+}
+
+figcaption {
+  font-size:12px;
+  padding-bottom:10px
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+.right:link {
+  color:#0000ff
+   }
+
+.right:visited {
+  color:#B22222
+  }
+
+.right:hover {
+   color:#FFC0CB
+ }
+
+.right:active {
+   color:#FFFF99
+   }
+
+  .author {
+    padding-bottom:20px
+  }
